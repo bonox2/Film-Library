@@ -1,4 +1,11 @@
 export default function MoviePageCard(props) {
+  for (let i = 0; i < 5; i++) {
+    if (data.rating > i) {
+        rating += '&#9733;'
+    } else{
+        rating += '&#9734;'
+    }
+}
   return (
     <>
       <div className="movie_page">
