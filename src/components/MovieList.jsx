@@ -7,7 +7,7 @@ export default function MovieList() {
   useEffect(() => {
     getMovies().then(movies => setMovies(movies)).catch(err => console.log(err));
   }, [])
-  return <div className='container'>{movies.map(movie => <MovieCard key={movie.id} movie={movie}/>)}</div>;
+  return <div className='container'><div className='movie_list'>{movies.map(movie => <MovieCard key={movie.id} movie={movie}/>)}</div></div>;
 }
 
 

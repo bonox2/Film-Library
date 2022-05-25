@@ -1,4 +1,7 @@
-
+.movie_list{
+    display:flex;
+    flex-wrap: wrap;
+}
 .movie_card{
     width: 600px;
     background: #2b2b2b;
@@ -12,7 +15,7 @@
 }
 .movie_title{
     color: #e0dfdc;
-    font-size: 24;
+    font-size: 24px;
     font-weight: 700;
     padding-bottom: 15px;
     max-width: auto;
@@ -30,6 +33,29 @@
 .movie_description{
     margin-top: 30px;
 }
+*{
+    box-sizing: border-box;
+}
 a{
     color: #e0dfdc;
+}
+
+
+/* <------  movie page  -------> */
+.movie_page{
+    width: 100%;
+    background: #2b2b2b;
+    color: #a8a8a8;
+    border: 1px solid #404040;
+    padding: 15px;
+}
+.movie_about{
+    border: 1px solid #393737;
+    background: #222;
+    padding: 10px 15px;
+    line-height: 18px;
+    margin-top: 20px;
+}
+.movie_trailer{
+    margin: 40px 0 0 260px;
 }
