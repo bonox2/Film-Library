@@ -1,12 +1,13 @@
 import './App.css';
+import AddMovie from './components/AddMovie';
 import Header from './components/Header';
 import MovieList from './components/MovieList';
-import MoviePageCard from './components/MoviePage';
 
 function App() {
   return (
     <>
       <Header />
+      <AddMovie/>
       <MovieList/>
     </>
   );
