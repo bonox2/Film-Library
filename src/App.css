@@ -23,6 +23,11 @@
 .movie_poster{
     padding-right: 20px;
 }
+.rating_stars{
+    color: gold;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
 .content{
     display:flex;
 }
@@ -58,4 +63,27 @@ a{
 }
 .movie_trailer{
     margin: 40px 0 0 260px;
+}
+
+/* <------  header  -------> */
+.header{
+    background: #2b2b2b;
+    color: #a8a8a8;
+    border: 1px solid #404040;
+}
+.header-main{
+    padding: 20px 40px ;
+    color: #e0dfdc;
+    font-size: 28px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    max-width: auto;
+}
+
+/* <------  Add movie form  -------> */
+
+.add-form{
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
 }

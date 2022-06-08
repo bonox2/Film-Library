@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      <AddMovie/>
+      <AddMovie />
       <MovieList/>
     </>
   );
