@@ -1,6 +1,6 @@
-
-export default function AddMovie() {
+export default function AddForm() {
   return (
+    
     <form  className="add-form">
       <h2>Add new film</h2>
       <input
@@ -80,10 +80,7 @@ export default function AddMovie() {
         name="comment"
         placeholder="Comment"
       ></textarea>
-
-
-
-      <button type="submit">Add todo</button>
+      <button type="submit">Add Film</button>
     </form>
   );
 }
